@@ -2,6 +2,7 @@
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6153854683e90b1033615a55eeaad36c" label="Wish List Table" max_length="40" name="x_1954677_wish_l_0_wish_list_table" type="collection">
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Display Name" max_length="300" name="u_display_name" read_only="true" read_only_option="instance_configured" type="string"/>
         <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <element display="true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
         <index name="index">
